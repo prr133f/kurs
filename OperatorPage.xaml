@@ -1,0 +1,41 @@
+﻿<Page
+    xmlns:utu="using:Uno.Toolkit.UI"
+    xmlns:muxc="using:Microsoft.UI.Xaml.Controls"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+    xmlns:local="using:Buses" 
+    x:Class="Buses.OperatorPage" 
+    mc:Ignorable="d"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+  <StackPanel Orientation="Vertical" Padding="32">
+    <StackPanel Orientation="Vertical" Spacing="32" Padding="32">
+      <TextBlock TextAlignment="Center" Text="Установка маршрута" Margin="0,0,0,8" />
+      <!-- TODO Change Commands -->
+      <StackPanel Orientation="Vertical" Spacing="4" Width="245">
+        <TextBlock TextAlignment="Center" Text="Номер маршрута" />
+        <StackPanel Orientation="Vertical" HorizontalAlignment="Center">
+          <StackPanel Orientation="Horizontal" Padding="16,8">
+            <ComboBox x:Name="RouteComboBox" PlaceholderText="Выберите из списка" ItemsSource="{x:Bind Routes}" 
+              SelectionChanged="{x:Bind SetRoute}" />
+            <Path Data="F1 M 0 0 L 4.5 4.5 L 9 0" Width="9" Height="4.5" />
+          </StackPanel>
+        </StackPanel>
+      </StackPanel>
+      <StackPanel Spacing="4" Width="245">
+        <TextBlock TextAlignment="Center" Text="Номер автобуса" />
+        <StackPanel>
+          <StackPanel Orientation="Horizontal" Padding="16,8">
+            <ComboBox x:Name="BusComboBox" PlaceholderText="Выберите из списка" ItemsSource="{x:Bind Buses}"
+              SelectionChanged="{x:Bind SetBus}" />
+            <Path Data="F1 M 0 0 L 4.5 4.5 L 9 0" Width="9" Height="4.5" />
+          </StackPanel>
+        </StackPanel>
+      </StackPanel>
+      <StackPanel Padding="0,8,0,0" Height="50" HorizontalAlignment="Center">
+        <Button x:Name="SubmitButton" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Content="Начать маршрут" CornerRadius="8"
+          Click="Submit" />
+      </StackPanel>
+    </StackPanel>
+  </StackPanel>
+</Page>

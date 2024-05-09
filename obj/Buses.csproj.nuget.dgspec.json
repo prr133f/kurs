@@ -1,0 +1,140 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/prr133f/Downloads/Buses/Buses.csproj": {}
+  },
+  "projects": {
+    "/Users/prr133f/Downloads/Buses/Buses.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/prr133f/Downloads/Buses/Buses.csproj",
+        "projectName": "Buses",
+        "projectPath": "/Users/prr133f/Downloads/Buses/Buses.csproj",
+        "packagesPath": "/Users/prr133f/.nuget/packages/",
+        "outputPath": "/Users/prr133f/Downloads/Buses/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "/Users/prr133f/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-desktop"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-desktop8.0": {
+            "targetAlias": "net8.0-desktop",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0-desktop8.0": {
+          "targetAlias": "net8.0-desktop",
+          "dependencies": {
+            "CommunityToolkit.Mvvm": {
+              "target": "Package",
+              "version": "[8.2.2, )",
+              "autoReferenced": true
+            },
+            "Microsoft.Extensions.Logging.Console": {
+              "target": "Package",
+              "version": "[8.0.0, )",
+              "autoReferenced": true
+            },
+            "SkiaSharp.Skottie": {
+              "target": "Package",
+              "version": "[2.88.8, )",
+              "autoReferenced": true
+            },
+            "SkiaSharp.Views.Uno.WinUI": {
+              "target": "Package",
+              "version": "[2.88.8, )",
+              "autoReferenced": true
+            },
+            "Uno.Material.WinUI": {
+              "target": "Package",
+              "version": "[5.0.13, )",
+              "autoReferenced": true
+            },
+            "Uno.Resizetizer": {
+              "target": "Package",
+              "version": "[1.4.8, )",
+              "autoReferenced": true
+            },
+            "Uno.UI.Adapter.Microsoft.Extensions.Logging": {
+              "target": "Package",
+              "version": "[5.2.112, )",
+              "autoReferenced": true
+            },
+            "Uno.WinUI": {
+              "target": "Package",
+              "version": "[5.2.112, )",
+              "autoReferenced": true
+            },
+            "Uno.WinUI.DevServer": {
+              "target": "Package",
+              "version": "[5.2.112, )",
+              "autoReferenced": true
+            },
+            "Uno.WinUI.Lottie": {
+              "target": "Package",
+              "version": "[5.2.112, )",
+              "autoReferenced": true
+            },
+            "Uno.WinUI.Skia.Linux.FrameBuffer": {
+              "target": "Package",
+              "version": "[5.2.112, )",
+              "autoReferenced": true
+            },
+            "Uno.WinUI.Skia.MacOS": {
+              "target": "Package",
+              "version": "[5.2.112, )",
+              "autoReferenced": true
+            },
+            "Uno.WinUI.Skia.Wpf": {
+              "target": "Package",
+              "version": "[5.2.112, )",
+              "autoReferenced": true
+            },
+            "Uno.WinUI.Skia.X11": {
+              "target": "Package",
+              "version": "[5.2.112, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
